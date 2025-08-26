@@ -16,7 +16,7 @@ const MainLayout = () => {
     return (
         <>
             <Navbar />
-            <div className="pt-[10vh]">
+            <div className="pt-16">
                 <Suspense fallback={<Loader />}> 
                   <Outlet />
                 </Suspense>
